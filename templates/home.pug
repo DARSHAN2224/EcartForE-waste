@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    | crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta charset="utf-8" />
+    <title>Swiper demo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <!-- Link to your custom CSS file -->
+    <link rel="stylesheet" href="/css/home.css">
+
+</head>
+<body>
+
+    <nav id="navbar">
+        <div class="container">
+            <h1>WasteWise</h1>
+            <div class="left">
+                <li class="logout"></a><a href="/logout"><img id="imgs" src="/images/loginimg.png" alt="logout">
+                span#logspan= 'logout'
+                </a></li>
+                <li ></a><a href="/login"><img id="imgs" src="/images/loginimg.png" alt="login">
+                span#logspan= name || 'login'
+                </a></li>
+            </div>
+        </div>
+      
+        <ul>
+            <li><a href="/">Home</a></li>
+            <!-- <li><a href="/about">About</a></li> -->
+            <li><a href="/contact">Contact us</a></li>
+            <li><a href="/cart">Cart</a></li>
+        </ul>
+    </nav>
+
+
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <img class="img" src="/images/1.jpg" alt="no image">
+            </div>
+            <div class="swiper-slide">
+                <img class="img" src="/images/2.jpg" alt="no image">
+            </div>
+            <div class="swiper-slide"> 
+                <img class="img" src="/images/3.jpg" alt="no image">
+            </div>
+            <div class="swiper-slide"> 
+                <img class="img" src="/images/4.jpg" alt="no image">
+            </div>
+            <div class="swiper-slide"> 
+                <img class="img" src="/images/5.jpg" alt="no image">
+            </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+    </div>
+
+    <div class="container1">
+        <header>
+            <div class="title">Product Categories</div>
+        </header>
+        <div class="listProduct">
+            <!-- <div class="item">
+                <img src="/images/refridge.png" alt="">
+                <h2>Name product</h2>
+                <button class="addcart">Add to cart</button>
+            </div> -->
+        </div>
+    </div>
+    <footer class="foot">
+        <div class="join">
+            <h4 class="heading-4">Join with us</h4>
+            <input type="email" name="mail" id="mail" placeholder="Email">
+        </div>
+        <div class="about" action="/about">
+            <h4 class="heading-4">What We're about</h4>
+            <p class="para">Welcome to WasteWise, your trusted partner in responsible e-waste management. At WasteWise, we are
+                committed to safeguarding our environment by providing sustainable solutions for electronic waste
+                disposal.Our mission is to reduce the environmental impact of e-waste through comprehensive recycling
+                and recovery services.</p>
+        </div>
+        <div class="contact">
+            <h4 class="heading-4">Contact us</h4>
+            <p class="para">E-mail:<strong>Waste@Wise.in</strong></p>
+            <p class="para">Whatsapp:<strong>+91 8975443559</strong></p>
+        </div>
+    </footer>
+   
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- Your custom JavaScript -->
+    <script src="/js/swiper-script.js"></script>
+</body>
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>services provider</title>
+    <link rel="stylesheet" href="/css/entry.css">
+</head>
+
+<body>
+    <div class="upload-container">
+        <h1>Upload Product Files</h1>
+        <form id="upload-form" action="/about" method="post" enctype="multipart/form-data">
+        <div class="weigth-box common" >
+            <label for="weight">weight:</label>
+            <input type="number" name="weightkg" id="weight" placeholder="In kgs">
+            <input type="number" name="weightg" id="weight" placeholder="In grams">
+        </div>
+        <div class="boxs common" >
+            <label for="brand">Brand Name:</label>
+            <input type="text" name="brand" id="brand" placeholder="Enter the brand name">
+        </div>
+        <div class="boxs common" >
+            <label for="model">Model Name:</label>
+            <input type="text" name="model" id="model" placeholder="Enter the model name">
+        </div>
+        <div class="file-box common">
+            <h3>upload the e-waste images:</h3>
+            <input type="file" name="files" id="files" multiple accept="image/*,application/pdf">
+        </div>
+        <div class="common">
+            <input type="radio" name="choose" id="working" value="working">
+            <label for="working">working</label>
+
+            <input type="radio" name="choose" id="partial-working" value="partial-working">
+            <label for="partial-working">partial working</label>
+
+            <input type="radio" name="choose" id="not-working" value="not-working">
+            <label for="not-working">not working</label>
+        </div>
+        <div class="commom">
+            <textarea name="desp" id="desp" placeholder="Any more informatiom..."></textarea>
+        </div>
+        <div class="common">
+            <button type="submit" class="btn">Upload</button>
+        </div>
+        </form>
+        <div class="preview" id="preview"></div>
+    </div>
+    if fileSaved
+    script.
+      const urlParams = new URLSearchParams(window.location.search);
+    <script src="/js/entry.js"></script>
+</body>
+</html>

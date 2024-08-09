@@ -1,0 +1,51 @@
+[
+    {
+        "id": 1,
+        "name":" Glass Bulbs",
+        "price": 200,
+        "image": "/images/product/1.jpg"
+    },
+    {
+        "id": 2,
+        "name":" Glass Containers",
+        "price": 250,
+        "image": "/images/product/2.jpg"
+    },
+    {
+        "id": 3,
+        "name":" Ear Phones",
+        "price": 290,
+        "image": "/images/product/3.jpg"
+    },
+    {
+        "id": 4,
+        "name":" Solar Equipments",
+        "price": 200,
+        "image": "/images/product/4.jpg"
+    },
+    {
+        "id": 5,
+        "name":" Phone Protectors",
+        "price": 300,
+        "image": "/images/product/5.jpg"
+    },
+    {
+        "id": 6,
+        "name":" Thermostats",
+        "price": 200,
+        "image": "/images/product/6.jpg"
+    },
+    {
+        "id": 7,
+        "name":" 3D Printers",
+        "price": 200,
+        "image": "/images/product/7.jpg"
+    },
+    {
+        "id": 8,
+        "name":" LD08 LOUNGE CHAIR",
+        "price": 200,
+        "image": "/images/product/1.jpg"
+    }
+
+]

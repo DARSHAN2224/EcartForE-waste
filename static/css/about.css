@@ -1,0 +1,61 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0%;
+    padding: 0%;
+}
+
+nav {
+    height: 70px;
+    background-color: #158520;
+    /* border-radius: 20px; */
+}
+ul{
+    border-radius: 5%;
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+}
+
+li{
+    list-style: none;
+    padding: 5px 15px;
+}
+
+a{
+    color: aliceblue;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.foot{
+    background-color: #158520;
+    display: flex;
+    height: 200px;
+}
+
+.heading-4{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+#mail{
+    padding: 5px;
+    margin: 10px auto;
+    border-radius: 5px;
+  width: 50%;
+}
+.join{
+    margin: 20px;
+    width: 33.3%;
+}
+.about{
+    width: 33.3%;
+    margin: 20px;
+}
+.para{
+    font-size:15px;
+    line-height: 1.8;
+}
+.contact{
+    width: 33.3%;
+    margin: 20px;
+}

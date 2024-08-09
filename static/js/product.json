@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "name":" PC/LAPTOP/MONITORS",
+        "price": 200,
+        "image": "/images/front/1.jpg"
+    },
+    {
+        "id": 2,
+        "name":"SMARTPHONES/TABLETS",
+        "price": 250,
+        "image": "/images/front/2.jpg"
+    },
+    {
+        "id": 3,
+        "name":"DAILY APPLIANCES",
+        "price": 290,
+        "image": "/images/front/3.jpg"
+    },
+    {
+        "id": 4,
+        "name":"MEDCICAL EQUIPMWNTS",
+        "price": 200,
+        "image": "/images/front/4.jpg"
+    },
+    {
+        "id": 5,
+        "name":"OFFICE EQUIPMENT",
+        "price": 300,
+        "image": "/images/front/5.jpg"
+    },
+    {
+        "id": 6,
+        "name":"SECURITY DEVICES",
+        "price": 200,
+        "image": "/images/front/6.jpg"
+    }
+]
